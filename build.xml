@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--BuidFile for project-->
+
+<project name="morphology" default="jar" basedir=".">
+  <description>buildfile</description>
+
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="jar.dir"  value="/Applications/NetLogo 5.0.2/extensions/morphology"/>
+  <property name="main" value = ""/>
+
+  <path id="classpath">
+  	  <pathelement location="/Applications/NetLogo 5.0.2/NetLogo.jar"/>
+  </path>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}/classes"/>
+  </target>
+
+  <target name="compile" depends="init" description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}/classes" classpathref="classpath"/>
+  </target>
+
+  <target name="jar" depends="compile">
+        <mkdir dir="${jar.dir}"/>
+        <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="build/classes" manifest="manifest.txt">
+        </jar>
+    </target>
+
+</project>
