@@ -6,7 +6,7 @@ Extension implementing mathematical morphology operations, basically on rasters 
 
 [Basic](https://github.com/JusteRaimbault/morphology#Basic)
 
-- [binary-raster](https://github.com/NetLogo/NW-Extension#binary-raster)
+- [binary-raster](https://github.com/JusteRaimbault/morphology#binary-raster)
 
 ### Basic
 
