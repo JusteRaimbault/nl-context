@@ -9,6 +9,22 @@ package morpho;
  */
 public interface MorphoOperation {
 
+	/**
+	 * Processes input image with default Kernel.
+	 * 
+	 * @param image
+	 * @return
+	 */
+	public Data process(Data image);
+	
+	
+	/**
+	 * Processes input image with given Kernel
+	 * 
+	 * @param image
+	 * @param kernel
+	 * @return
+	 */
 	public Data process(Data image,BinaryKernelData kernel);
 	
 }
