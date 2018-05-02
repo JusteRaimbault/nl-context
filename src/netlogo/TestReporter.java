@@ -16,6 +16,7 @@ public class TestReporter extends DefaultReporter {
   
 	
 	public Syntax getSyntax() {
+		
 		return Syntax.reporterSyntax(new int[] {Syntax.NumberType()}, Syntax.ListType());
 	}
   

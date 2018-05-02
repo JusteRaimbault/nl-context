@@ -3,6 +3,7 @@
  */
 package netlogo;
 
+import org.nlogo.api.World;
 import org.nlogo.api.Argument;
 import org.nlogo.api.Context;
 import org.nlogo.api.DefaultReporter;
@@ -22,6 +23,12 @@ public class ReportWrapper extends DefaultReporter {
 	  
 		
 		public Object report(Argument args[], Context context) throws ExtensionException {
+			
+	        World world = context.getAgent().world();
+			world.patches();
+			
+			
+			
 			int n ;
 		    try {
 		      n = args[0].getIntValue();  

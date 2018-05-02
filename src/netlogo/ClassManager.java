@@ -5,16 +5,16 @@ package netlogo;
 
 import org.nlogo.api.*;
 
-import test.TestReporter;
+import context.*;
 
 public class ClassManager extends DefaultClassManager {
 	
 	
     public void load(PrimitiveManager primitiveManager) {
-       primitiveManager.addPrimitive("first-n-integers", new TestReporter());
-       primitiveManager.addPrimitive("int-wrapper", new ReportWrapper());
-       primitiveManager.addPrimitive("sum", new Sum());
-
+       primitiveManager.addPrimitive("breed-names", new BreedNames());
+       primitiveManager.addPrimitive("breed-singular-names", new BreedSingularNames());
+       primitiveManager.addPrimitive("link-breed-names", new LinkBreedNames());
+       primitiveManager.addPrimitive("link-breed-singular-names", new LinkBreedSingularNames());
 	}
   
   

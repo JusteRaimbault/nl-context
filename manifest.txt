@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
-Extension-Name: morphology
+Extension-Name: context
 Class-Manager: netlogo.ClassManager
 NetLogo-Extension-API-Version: 5.0
