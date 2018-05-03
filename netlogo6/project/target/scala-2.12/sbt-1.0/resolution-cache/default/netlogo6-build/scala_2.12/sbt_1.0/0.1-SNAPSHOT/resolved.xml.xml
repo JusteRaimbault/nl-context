@@ -4,7 +4,7 @@
 		module="netlogo6-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180502184023"
+		publication="20180503111919"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

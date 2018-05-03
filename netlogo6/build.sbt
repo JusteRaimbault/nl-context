@@ -12,12 +12,12 @@ scalacOptions ++= Seq("-deprecation", "-unchecked", "-Xlint", "-Xfatal-warnings"
 
 javacOptions ++= Seq("-g", "-deprecation", "-Xlint:all", "-encoding", "us-ascii")
 
-name := "morphology"
+name := "context"
 
 netLogoVersion      := "6.0.2"
 
-netLogoClassManager := "Morphology"
+netLogoClassManager := "ClassManager"
 
-netLogoExtName      := "morphology"
+netLogoExtName      := "context"
 
 netLogoZipSources   := false
