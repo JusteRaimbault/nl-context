@@ -1,9 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 5 Java sources to /home/raimbault/ComplexSystems/Softwares/NetLogo/utils/extensions/context/nl-context/netlogo6/target/scala-2.12/classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mAttempting to call com.sun.tools.javac.api.JavacTool@40add626 directly...[0m
-[0m[[0m[0mdebug[0m] [0m[0mJava compilation took 0.476185903 s[0m
-[0m[[0m[0mdebug[0m] [0m[0mJava analysis took 0.093405571 s[0m
-[0m[[0m[0mdebug[0m] [0m[0mJava compilation + analysis took 0.573894237 s[0m
-[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
